@@ -1,3 +1,5 @@
-.vagrant
+.vagrant/
 website/
 config/
+html/
+*.log
