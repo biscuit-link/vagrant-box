@@ -1,0 +1,24 @@
+server {
+	listen 4848;
+	server_name localhost;
+
+	root /var/www/website/public;
+
+	index index.php;
+
+	# Important for VirtualBox
+	sendfile off;
+
+	location / {
+		try_files $uri /index.php;
+	}
+
+	location ~ \.php$ {
+		try_files $uri /index.php =404;
+		fastcgi_split_path_info ^(.+\.php)(/.+)$;
+		fastcgi_pass unix:/run/php/php7.0-fpm.sock;
+		fastcgi_index index.php;
+		fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+		include fastcgi_params;
+	}
+}
