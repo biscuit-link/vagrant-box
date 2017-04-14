@@ -10,7 +10,7 @@ Vagrant.configure(2) do |config|
 	config.vm.synced_folder "../config", "/var/www/config", create: true, group: "www-data", owner: "www-data"
 
 	config.vm.provider "virtualbox" do |vb|
-		vb.name = "Cookie Jar - Vagrant Box"
+		vb.name = "Biscuit Link Development Box"
 		vb.memory = "1024"
 	end
 
