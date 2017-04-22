@@ -2,7 +2,7 @@ Vagrant.configure(2) do |config|
 
 	config.vm.box = "ubuntu/xenial64"
 
-	config.vm.network "forwarded_port", guest: 4848, host: 4848, auto_correct: true
+	config.vm.network "forwarded_port", host_ip: "localhost", guest: 4848, host: 4848, auto_correct: true
 
 	config.vm.synced_folder "./", "/vagrant", disabled: true
 	config.vm.synced_folder "./", "/var/www", create: true, group: "www-data", owner: "www-data"
