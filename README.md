@@ -39,13 +39,25 @@ Inside your Vagrant box's folder run `vagrant ssh` which should now bring up the
 
 #### 3.2 Run `composer install`
 
-Your website folder is in `/var/www/website` (see step 1), change into the folder using `cd /var/www/website` and then run `composer install`.
+Your website folder is in `/var/www/website` (see step 1), change into the folder using `cd /var/www/website` and then run `composer install`. The dependencies should now be built successfully!
 
-The dependencies should now be built successfully!
+### 4. Check your development site
+
+The box will have now started to run a Nginx Web Server at [http://localhost:4848](http://localhost:4848). If no errors display then you are all set to develop!
+
+If even after these steps you can't seem to get your box running, head over to the [Issues](https://github.com/biscuit-link/vagrant-box/issues) and let us know why. You are also encouraged to improve these tutorial steps, we welcome [Pull Requests](https://github.com/biscuit-link/vagrant-box/pulls) from anyone.
 
 ## Specifications
 
+Here is a list of the specifications for the box:
 
-
-
-
+* **Operating System:** Ubuntu 16.04 (ubuntu/xenial64)[https://app.vagrantup.com/ubuntu/boxes/xenial64]
+* **Installed Packages:**
+    * Git
+    * Nginx
+    * PHP 7.0 (`php7.0-fpm`) including the following extensions:
+        * php7.0-cli
+        * php7.0-zip
+        * php-pear
+        * php7.0-curl
+    * Composer
