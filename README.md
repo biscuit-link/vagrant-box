@@ -31,7 +31,7 @@ Once your folder structure is done all you gotta do is `vagrant up` and your box
 
 ### 3. Composer Install
 
-Biscuit Link has been written from the ground up to support the latest PHP technologies, therefore, we use Composer. Composer is automatically installed when your box is set-up, however, your project does not automatically fetch all the dependencies.
+Biscuit Link has been written from the ground up to support the latest PHP technologies, therefore, we use [Composer](https://getcomposer.org/). Composer is automatically installed when your box is set-up, however, your project does not automatically fetch all the dependencies.
 
 #### 3.1 SSH into Vagrant
 
@@ -43,8 +43,9 @@ Your website folder is in `/var/www/website` (see step 1), change into the folde
 
 The dependencies should now be built successfully!
 
-
 ## Specifications
+
+
 
 
 
