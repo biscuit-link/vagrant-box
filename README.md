@@ -1,3 +1,15 @@
+# Biscuit Link - Kitchen
+
+The all-in-one development box for Biscuit Link projects running on top of Vagrant, inspired by Laravel's Homestead.
+
+## Requirements
+
+- You need Vagrant on your machine.
+- We recommend Virtual Box as the provider.
+
+:warning: If you are using Windows, you may need to enable hardware virtualization (VT-x). It can usually be enabled via your BIOS. If you are using Hyper-V on a UEFI system you may additionally need to disable Hyper-V in order to access VT-x.
+
+
 # Biscuit Link - Vagrant Box
 
 The officially maintained Vagrant Box for running a [Biscuit Link](https://biscuit.link) development environment.
