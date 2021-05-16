@@ -1,5 +1,4 @@
-.vagrant/
-website/
-config/
-html/
+/.vagrant
+/Kitchen.yaml
 *.log
+*.gz
