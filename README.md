@@ -1,22 +1,25 @@
 # Biscuit Link - Kitchen
 
-The all-in-one development box for Biscuit Link projects running on top of Vagrant, inspired by Laravel's Homestead.
+The all-in-one development box for Biscuit Link projects running on top of Vagrant, inspired by Laravel's [Homestead](https://laravel.com/docs/homestead).
 
 ## Requirements
 
-- You need Vagrant on your machine.
-- We recommend Virtual Box as the provider.
-
-:warning: If you are using Windows, you may need to enable hardware virtualization (VT-x). It can usually be enabled via your BIOS. If you are using Hyper-V on a UEFI system you may additionally need to disable Hyper-V in order to access VT-x.
+- You need [Vagrant](https://www.vagrantup.com/) on your machine.
+- We recommend [Virtual Box 6.1](https://www.virtualbox.org/) as the provider.
 
 
-# Biscuit Link - Vagrant Box
+---
+# TODOs
+- Create kitchen.yaml configuration file.
+- List available installed services.
+- kitchen up command shortcut
+- Getting started documents.
+- Kitchen documentation on biscuit.link
 
-The officially maintained Vagrant Box for running a [Biscuit Link](https://biscuit.link) development environment.
+---
+# OLD DOCs
 
-## Requirements
-
-You must have [Vagrant](https://www.vagrantup.com/intro/index.html) and [Virtual Box](https://www.virtualbox.org/wiki/Downloads) installed on your machine in order to be able to run this box.
+:warning: These docs are being rewritten to match the new version.
 
 ## Getting Started
 
