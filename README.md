@@ -7,6 +7,17 @@ The all-in-one development box for Biscuit Link projects running on top of Vagra
 - You need [Vagrant](https://www.vagrantup.com/) on your machine.
 - We recommend [Virtual Box 6.1](https://www.virtualbox.org/) as the provider.
 
+## Getting Started
+
+:warning: **Coming Soon** :warning:
+
+## Kitchen Configuration
+
+:warning: **Coming Soon** :warning:
+
+## What's in the cupboard?
+
+:warning: **Coming Soon** :warning:
 
 ---
 # TODOs
